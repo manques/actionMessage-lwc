@@ -1,0 +1,9 @@
+.save{
+    margin: 10px;
+}
+
+.center{
+    display: flex; 
+    justify-content: center;
+    padding-bottom: 25px;
+}

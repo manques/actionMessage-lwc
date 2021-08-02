@@ -1,0 +1,13 @@
+<template>
+
+    <lightning-card  class="save">
+        <div class="center">
+            <lightning-button variant="brand" label="save" title="Save action" onclick={onSave}>save</lightning-button>
+        </div>
+    </lightning-card>
+
+    <template if:true={isShow}>
+        <c-my-child-message  message={message}></c-my-child-message>
+    </template>
+
+</template>
